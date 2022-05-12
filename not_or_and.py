@@ -1,0 +1,61 @@
+""" -----------------------------------------
+| Utilizando os operadores - not | or | and |
+| Seu retorno é sempre um valor booleano.   |
+----------------------------------------- """
+
+""" Definindo valores para as variaveis 'a' e 'b' """
+a,b = 1,5
+
+print("=========================================================")
+print(" ")
+print("Utilizando os valores 'not - or - and' e entendendo como")
+print("eles se comportam em suas aplicações.")
+print("Obs: Seu retorno é booleano (True ou False)")
+print(" ")
+print("                  -------------")
+print("                  |   a = 1   |")
+print("Considerando que: |     e     |")
+print("                  |   b = 5   |")
+print("                  -------------")
+print(" ")
+print("=========================================================")
+print(" ")
+print("'not' - Inverte o valor booleano.")
+print(" ")
+print("a > b - Retorna False, pois 1 não é maior do que 5.")
+print(a > b)
+print(" ")
+print("not a > b - Inverte seu valor booleano e retorna True.")
+print(not a > b)
+print(" ")
+print("=========================================================")
+print(" ")
+print("'or' - Retorna se um 'ou' outro é True.")
+print(" ")
+print("a > b or a < b - Retorna True por uma das operações é True.")
+print(a > b or a < b)
+print(" ")
+print("a > b or b < a - Retorna False pois as duas operações não False.")
+print(a > b or b < a)
+print(" ")
+print("==========================================================")
+print(" ")
+print("'and' - Retonar True somente se os dois valores são True")
+print("se um ou os dois valores são False ele retornara False.")
+print(" ")
+print("a < b and b > a - Retorna True pois ambas operações são True.")
+print(a < b and b > a)
+print(" ")
+print("a > b and b > a - Sendo Qualquer uma delas False retorna False.")
+print(a > b and b > a)
+print(" ")
+print("a < b and b < a - Sendo Qualquer uma delas False retorna False.")
+print(a < b and b < a)
+print(" ")
+print("a > b and b < a - Sendo as duas False também retorna False.")
+print(a > b and b < a)
+print(" ")
+print("==========================================================")
+
+
+
